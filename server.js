@@ -4,6 +4,9 @@ const app = express(); //instacia del servidor
 const { animals } = require('./data/animals');
 
 
+
+
+
 function filterByQuery(query, animalsArray) {
     let personalityTraitsArray = [];   
     let filteredResults = animalsArray;    
@@ -42,6 +45,14 @@ function filterByQuery(query, animalsArray) {
     return filteredResults;
   }
 
+  
+
+  function findById(id, animalsArray) {
+    const result = animalsArray.filter(animal => animal.id === id)[0];
+    return result;
+  }
+
+
   app.get('/api/animals', (req, res) => {
     let results = animals;
     if (req.query) {
@@ -50,6 +61,16 @@ function filterByQuery(query, animalsArray) {
     res.json(results);
   });
 
+
+  app.get('/api/animals/:id', (req, res) => {
+    const result = findById(req.params.id, animals);
+    if (result) {
+      res.json(result);
+    } else {
+      res.send(404);
+    }
+  });
+  
 
   app.listen(PORT, () => {
     console.log(`API server now on port ${PORT}!`);
