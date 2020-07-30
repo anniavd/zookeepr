@@ -135,6 +135,16 @@
         "loving"
       ],
       "id": "13"
+    },
+    {
+      "name": "tobi",
+      "species": "bear",
+      "diet": "herbivore",
+      "personalityTraits": [
+        "anxious",
+        "loving"
+      ],
+      "id": "14"
     }
   ]
 }
