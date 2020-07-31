@@ -2,25 +2,28 @@
   "name": "zookeepr-1",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "jest": "^26.2.1"
+  },
+  "devDependencies": {},
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/anniavd/zookeepr-1.git"
   },
-  "keywords": [],
-  "author": "",
+  "author": "annia",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/anniavd/zookeepr-1/issues"
   },
   "homepage": "https://github.com/anniavd/zookeepr-1#readme",
-  "dependencies": {
-    "express": "^4.17.1"
-  },
-  "devDependencies": {
-    "jest": "^26.2.1"
-  }
+  "keywords": []
 }

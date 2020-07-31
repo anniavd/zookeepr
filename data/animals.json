@@ -145,6 +145,15 @@
         "loving"
       ],
       "id": "14"
+    },
+    {
+      "name": "bin",
+      "species": "bear",
+      "diet": "carnivore",
+      "personalityTraits": [
+        "hungry"
+      ],
+      "id": "15"
     }
   ]
 }
