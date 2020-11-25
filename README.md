@@ -9,7 +9,9 @@
 
 Zoo keepr is an application that shows an online catalog about a zoo,where the user can access this information from any device and interact.
 
-  
+   ![Homepage](public/assets/images/homepage.jpg)
+ _____________________________________________________________________
+ Visit the site! [ZOO Keepr](https://zookeepr1.herokuapp.com/)
 
 # Table of Contents
 
