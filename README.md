@@ -39,12 +39,22 @@ Zoo keepr is an application that shows an online catalog about a zoo,where the u
  -  The user has several options to choose from to interact with the application, such as:
 > - Add Animals.
 > - Add Zookeeper.
-> - View Animals
-> - View zookeepers
+> - View Animals.
+> - View zookeepers.
 
 The user can add an animal or a zookeeper from the same page, as shown in the following image:
 
- ![forms to add a animal or zookeeper](public/assets/images/add-animal-zookeeper.jpg)
+ ![forms page to add a animal or zookeeper](public/assets/images/add-animal-zookeeper.jpg)
+
+
+The user can see all the animals in the zoo catalog by clicking on the `View Animals` button and then if he wishes he can filter the search by ` Diet` and `Personality Traits `.
+
+ ![ form page with filter search and all animals information](public/assets/images/all-animals.jpg)
+
+ > - Example of a search performed by the user.
+
+  ![ filter search animals](public/assets/images/filter-search.jpg)
+
 
 # License
 The license for which the application is covered:
