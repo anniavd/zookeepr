@@ -56,6 +56,14 @@ The user can see all the animals in the zoo catalog by clicking on the `View Ani
   ![ filter search animals](public/assets/images/filter-search.jpg)
 
 
+The user can see all the zookeepers in the zoo  by clicking on the `View Zookeepers` button and then if he wishes he can filter the search by ` Name` and `Age`.
+
+ ![ form page with filter search and all zookeepers information](public/assets/images/all-zookeepers.jpg)
+
+ > - Example of a search performed by the user.
+
+  ![ filter search zookeepers](public/assets/images/search-zookeeper.jpg)
+
 # License
 The license for which the application is covered:
 NONE 
@@ -65,6 +73,9 @@ NONE
  - EXPRESS
  - JAVASCRIPT
  - JEST
+ - HEROKU
+
+
 
 
 # Questions
