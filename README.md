@@ -11,7 +11,7 @@ Zoo keepr is an application that shows an online catalog about a zoo,where the u
 
    ![Homepage](public/assets/images/homepage.jpg)
  _____________________________________________________________________
- Visit the site! [ZOO Keepr](https://zookeepr1.herokuapp.com/)
+ Visit the site! [Zoo Keepr](https://zookeepr1.herokuapp.com/)
 
 # Table of Contents
 
@@ -20,7 +20,6 @@ Zoo keepr is an application that shows an online catalog about a zoo,where the u
 [Usage](#Usage)
 
 [License](#License)
-
 
 [Technologies](#Technologies)
 
@@ -45,7 +44,10 @@ The license for which the application is covered:
 NONE 
 
 # Technologies 
- - 
+ - NODE
+ - EXPRESS
+ - JAVASCRIPT
+ - JEST
 
 
 # Questions
