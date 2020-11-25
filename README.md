@@ -1,4 +1,4 @@
-# ZOOKEEPR
+# ZOO KEEPR
 
 
 
@@ -7,6 +7,7 @@
 
 # Description
 
+Zoo keepr is an application that shows an online catalog about a zoo,where the user can access this information from any device and interact.
 
   
 
@@ -26,7 +27,11 @@
 
   
 # Installation 
- - 
+ - Clone the app in to your pc.
+- Open a console terminal for the app from the file server.js.
+- Run the line command `npm install` and then `npm start`.
+- Open the browser and type in the address bar `http: // localhost: 3001 /`
+
 
 
 # Usage 
