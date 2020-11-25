@@ -36,8 +36,15 @@ Zoo keepr is an application that shows an online catalog about a zoo,where the u
 
 
 # Usage 
- - 
+ -  The user has several options to choose from to interact with the application, such as:
+> - Add Animals.
+> - Add Zookeeper.
+> - View Animals
+> - View zookeepers
 
+The user can add an animal or a zookeeper from the same page, as shown in the following image:
+
+ ![forms to add a animal or zookeeper](public/assets/images/add-animal-zookeeper.jpg)
 
 # License
 The license for which the application is covered:
